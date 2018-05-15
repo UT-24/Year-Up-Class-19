@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+var dayOfWeek = prompt("Enter a day of week:");
+var dayOfWeekLowerCase = dayOfWeek.toLowerCase();
+switch(dayOfWeekLowerCase)
+{
+	case("monday"):
+	case("tuesday"):
+	case("wednesday"):
+	case("thursday"):
+	case("friday"):
+	{
+		alert(dayOfWeek + " is a weekday!");
+		break;
+	}
+	case("saturday"):
+	case("sunday"):
+	{
+		alert(dayOfWeek + " is the weekend!");
+		break;
+	}
+	default:
+	{
+		alert(dayOfWeek + " is not a valid day!");
+	}
+}
+</script>
+</body>
+</html>
